@@ -1,3 +1,14 @@
+# Empire Panel
+Empire Panel is a web front end for Empire using Angular JS. The end goal here is to enable a multiplayer approach to Empire, such that an entire team can see listeners and interact with agents. This should enable teams to work more closely without any one person just being "in charge" of Empire.
+
+
+To get started, you'll need to first run the installation script below. We've outlined the steps to take here:
+```
+./setup/install.sh
+./empire --rest --username admin --password admin
+firefox https://localhost:1337
+```
+
 # Empire
 
 Empire is a pure PowerShell post-exploitation agent built on cryptologically-secure communications and a flexible architecture. Empire implements the ability to run PowerShell agents without needing powershell.exe, rapidly deployable post-exploitation modules ranging from key loggers to Mimikatz, and adaptable communications to evade network detection, all wrapped up in a usability-focused framework. It premiered at [BSidesLV in 2015](https://www.youtube.com/watch?v=Pq9t59w0mUI).
